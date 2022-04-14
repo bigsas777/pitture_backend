@@ -7,7 +7,6 @@ api = Api(app)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database_pitture.db'
 db = SQLAlchemy(app)
-db.create()
 
 class ModelPittura(db.Model):
     id = db.Column(db.Integer, primary_key=True)
