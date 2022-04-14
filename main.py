@@ -76,4 +76,4 @@ api.add_resource(Pittura, "/pitture/<string:id_pitt>")
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
